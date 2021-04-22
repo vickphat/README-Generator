@@ -15,33 +15,38 @@ inquirer
         },
         {
             type: 'input',
-            name: 'motivation',
-            message:'What was your motivation for this project?', 
-        },
-        {
-            type: 'input',
-            name: 'purpose',
-            message:'Why did you build this project?',    
-        },
-        {
-            type: 'input',
-            name: 'install',
+            name: 'installation',
             message:'What are the steps required to install your project?', 
         },
         {
             type: 'input',
             name: 'usage',
-            message:'How to use your project?',    
+            message:'What is your project used for?',    
         },
         {
             type: 'input',
-            name: 'credit',
-            message:'Were there any collaborators?',    
+            name: 'collaborators',
+            message:'Were there any collaborators for this project?',    
+        },
+        {
+            type: 'input',
+            name: 'test',
+            message:'How did you test your project?',    
         },
         {
             type: 'checkbox',
             name: 'license',
             message:'Is this project licensed?',
-            choices    
+            choices: ['MIT License', 'Apache License 2.0', 'GNU AGPLv3', 'The Unlicense'],
+        },
+        {
+            type: 'input',
+            name: 'github',
+            message:'What is your GitHub username?',    
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message:'What is your email?',    
         },
     ])
