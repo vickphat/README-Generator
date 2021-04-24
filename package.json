@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "(MIT OR Apache-2.0 OR Unlicense",
   "dependencies": {
     "inquirer": "^8.0.0"
   }

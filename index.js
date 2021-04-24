@@ -37,7 +37,11 @@ inquirer
             type: 'checkbox',
             name: 'license',
             message: 'Is this project licensed?',
-            choices: ['MIT License', 'Apache License 2.0', 'GNU AGPLv3', 'The Unlicense'],
+            choices: [
+                '[MIT License](LICENSE.txt)',
+                '[Apache License](apacheLICENSE.txt)',
+                '[Unlicensed](UNLICENSE.txt)',
+            ]
         },
         {
             type: 'input',
