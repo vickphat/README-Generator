@@ -26,7 +26,7 @@ inquirer
         {
             type: 'input',
             name: 'contribution',
-            message: 'Were there any collaborators for this project?',
+            message: 'Were there any contributers for this project?',
         },
         {
             type: 'input',
@@ -62,8 +62,12 @@ inquirer
         );
     });
 
-var readMe = data => {
+const readMe = data => {
     return `# ${data.title}
+
+# License: 
+![license](https://img.shields.io/badge/License-${data.license}-blue?style=for-the-badge&logo=appveyor.svg)
+
 
 # Table of Contents 
 
@@ -87,7 +91,7 @@ ${data.usage}
 ${data.license}
 
 ## Contribution: 
-${data.collaborators}
+${data.contribution}
 
 ## Testing: 
 ${data.test}
