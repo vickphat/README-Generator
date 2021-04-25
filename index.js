@@ -38,8 +38,8 @@ inquirer
             name: 'license',
             message: 'Is this project licensed?',
             choices: [
-                '[MIT License](LICENSE.txt)',
-                '[Apache License](apacheLICENSE.txt)',
+                '[MIT](LICENSE.txt)',
+                '[Apache](apacheLICENSE.txt)',
                 '[Unlicensed](UNLICENSE.txt)',
             ]
         },
