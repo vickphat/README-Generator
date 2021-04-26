@@ -2,6 +2,7 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 
 inquirer
+// Command line questions prompts
     .prompt([
         {
             type: 'input',
@@ -56,12 +57,12 @@ inquirer
     ])
     .then((data) => {
         const readMeFile = readMe(data);
-
+        // Creates README.md file
         fs.writeFile('README.md', readMeFile, (err) =>
             err ? console.log(err) : console.log('Successfully created README file!')
         );
     });
-
+// Generates markdown for README
 const readMe = data => {
     return `# ${data.title}
 
@@ -99,8 +100,8 @@ ${data.test}
 ## Questions: 
 If there are any questions that you may have, please contact me by the following:
 
-    * Github: [${data.github}](https://github.com/${data.github})
-    * Email: ${data.email} `;
+* Github: ${data.github} (https://github.com/${data.github})
+* Email: ${data.email} `;
     
 }
  
