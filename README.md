@@ -1,5 +1,8 @@
 # README GENERATOR
 
+![license](https://img.shields.io/badge/License-[MIT](LICENSE.txt)-blue?style=for-the-badge&logo=appveyor.svg)
+
+
 # Acceptance Criteria:
 
 For this homework assignment, I was task with creating a professional README generator.
@@ -28,10 +31,6 @@ The following is a link to Youtube to give a demo of this README generator:
 <img src = "https://github.com/vickphat/README-Generator/blob/master/assets/images/demo.JPG">
 
 https://www.youtube.com/watch?v=YjvHg4ce4wo
-
-
-# License: 
-![license](https://img.shields.io/badge/License-[MIT](LICENSE.txt)-blue?style=for-the-badge&logo=appveyor.svg)
 
 
 # Table of Contents 
