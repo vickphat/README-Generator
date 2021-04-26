@@ -23,7 +23,12 @@ The following is the acceptance criteria for this homework:
 
 # Demo:
 
-[![DEMO](Homework\readmeGenerator\assets\images\demo.JPG)](https://www.youtube.com/watch?v=YjvHg4ce4wo)
+The following is a link to Youtube to give a demo of this README generator:
+
+<img src = "https://github.com/vickphat/README-Generator/blob/master/assets/images/demo.JPG">
+
+https://www.youtube.com/watch?v=YjvHg4ce4wo
+
 
 # License: 
 ![license](https://img.shields.io/badge/License-[MIT](LICENSE.txt)-blue?style=for-the-badge&logo=appveyor.svg)
